@@ -1,0 +1,14 @@
+.box {
+    height: 100px;
+    width: 100px;
+    position:relative;
+    left: 50%;
+    transform: translate(-50%,0);
+
+}
+.blue {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}

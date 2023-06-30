@@ -1,0 +1,22 @@
+.brown {
+    background-color: brown;
+    animation-name: back-and-forth;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes back-and-forth {
+    0% {
+      transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(300px);
+      }
+    75% {
+      transform: translateX(-300px)
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
